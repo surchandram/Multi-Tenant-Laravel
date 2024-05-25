@@ -1,0 +1,13 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedModel }};
+
+class {{ class }}
+{
+    public static function execute({{ model }} ${{ modelVariable }})
+    {
+        // return $data;
+    }
+}

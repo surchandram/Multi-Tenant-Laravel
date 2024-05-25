@@ -1,0 +1,49 @@
+@import "./tailadmin/satoshi.css";
+@import "/node_modules/choices.js/public/assets/styles/choices.min.css";
+
+@config "../../tailwind.tailapp.config.js";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply relative text-base font-normal z-1 bg-whiten font-satoshi;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+/* third-party libraries CSS */
+
+#nprogress .bar {
+  z-index: 99999 !important;
+
+  height: 3px !important;
+}
+
+.mention-item {
+    @apply p-3 leading-none cursor-pointer hover:bg-slate-200;
+}
+
+.mention-selected {
+    @apply cursor-pointer bg-slate-200;
+}
+
+.ProseMirror p.is-editor-empty:first-child {
+    @apply before:content-[attr(data-placeholder)] text-slate-400 pointer-events-none float-left h-0;
+}

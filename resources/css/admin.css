@@ -1,0 +1,25 @@
+/* simple-line-icons */
+@import "/node_modules/simple-line-icons/css/simple-line-icons.css";
+
+/* flatpickr */
+@import "/node_modules/flatpickr/dist/flatpickr.css";
+@import "/node_modules/flatpickr/dist/themes/material_blue.css";
+
+.sidebar-wrapper ::-webkit-scrollbar {
+    background-color: #2b2b2b;
+    border-left: 1px solid 3e3e3e;
+    width: .65rem;
+}
+
+.sidebar-wrapper ::-webkit-scrollbar-thumb {
+    background: #6b6b6b;
+    border-radius: 10px;
+}
+
+.breadcrumb-item::after {
+    content: "/";
+}
+
+.breadcrumb-item.active::after {
+    content: "";
+}

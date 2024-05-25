@@ -1,0 +1,22 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Http\Request;
+use Spatie\LaravelData\Data;
+
+class {{ class }} extends Data
+{
+    public function __construct(
+        public readonly ?int $id,
+        public readonly ?string $created_at,
+    ) {
+    }
+
+    public static function fromRequest(Request $request): self
+    {
+        return self::from([
+            ...$request->validated(),
+        ]);
+    }
+}

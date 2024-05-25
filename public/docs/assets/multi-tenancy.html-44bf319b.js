@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7de6d2df","path":"/teams/multi-tenancy.html","title":"Multi-Tenancy","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"teams/multi-tenancy.md"}');export{t as data};

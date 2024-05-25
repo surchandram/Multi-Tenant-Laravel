@@ -1,0 +1,7 @@
+@import "/node_modules/choices.js/public/assets/styles/choices.min.css";
+
+@config "../../tailwind.auth.config.js";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

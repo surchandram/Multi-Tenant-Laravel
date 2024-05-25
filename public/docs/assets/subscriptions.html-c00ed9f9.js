@@ -1,0 +1,1 @@
+import{_ as s,p as t,q as a,R as e,t as c}from"./framework-d1b33ab5.js";const r={},o=e("h1",{id:"team-subscriptions",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#team-subscriptions","aria-hidden":"true"},"#"),c(" Team Subscriptions")],-1),i=[o];function n(_,d){return t(),a("div",null,i)}const h=s(r,[["render",n],["__file","subscriptions.html.vue"]]);export{h as default};

@@ -1,0 +1,1 @@
+import{_ as t,p as o,q as r,R as e,t as a}from"./framework-d1b33ab5.js";const c={},d=e("h1",{id:"where-to-get-the-code",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#where-to-get-the-code","aria-hidden":"true"},"#"),a(" Where to Get the Code?")],-1),n=[d];function s(h,_){return o(),r("div",null,n)}const l=t(c,[["render",s],["__file","index.html.vue"]]);export{l as default};

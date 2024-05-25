@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0d9f5eea","path":"/getstarted/","title":"Where to Get the Code?","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"getstarted/README.md"}');export{e as data};
